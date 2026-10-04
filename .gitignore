@@ -1,0 +1,52 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# testing
+coverage/
+
+# production
+build/
+dist/
+
+# misc
+.DS_Store
+*.env
+*.local
+*.log
+*.cache
+*.next
+.vercel
+.turbo
+
+# local research dataset and generated run artifacts
+docs/
+research/
+research/data/
+research/runs/
+
+# typescript
+*.tsbuildinfo
+research/dist/
+
+# vite
+.vite
+
+# bun
+bun.lockb
+
+# firebase
+.firebase/
+database.rules.json
+firebase.json
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
